@@ -1,0 +1,1 @@
+{"version":1,"contracts":[{"id":"9inohcc2lsk96","package_name":"decentralized_bookstore","contract_name":"HelloStarknet","module_path":"decentralized_bookstore::HelloStarknet","artifacts":{"sierra":"decentralized_bookstore_HelloStarknet.contract_class.json","casm":null}}]}
