@@ -9,7 +9,7 @@ pub trait IBookstore<TContractState>{
 mod Bookstore {
     use core::starknet::storage::{StoragePointerReadAccess, StoragePointerWriteAccess};
 
-#[storage] 
+#[storage]
 struct  Storage {
     title: ByteArray,
     author: ByteArray,
@@ -40,7 +40,7 @@ impl BookstoreImpl of super::IBookstore<ContractState> {
         let new_quantity = quantity - number;
         self.quantity.write(new_quantity);
         return quantity;
-            
+
     }
 }
 
